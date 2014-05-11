@@ -1,0 +1,41 @@
+Project name: d_d
+
+Project aims/goals: 
+- Produce a secure chat program 
+	v1 linux platform
+	v2 cross platform
+- using Public Key technology to encrypt and verify communications between multiple parties
+- Easy to use from user P.O.V (eventually)
+
+Development Process:
+- Paired programming
+- iterative model (small, we are making it for ourselves, we know what we want)
+- documentation (Java docs)
+- testing (testng)
+				
+Project technology outline:
+- PGP lib (GPG, free and opensource)
+- Linux (Arch)
+- git
+- languages (Java, GO, Python)
+- FLOOBITS (paired programming online tool)
+- IDE/Text editors (netbeans, scene builder, vim, ipython notebook)
+
+Simple overview:
+- User opens software
+- User types in private key password/passphrase 
+- software sends encrypted message to server (pi) (sign(encrypt))
+- server verifies its a me, mario
+- Server tells client software who else is on
+- User can chat with individual user or all connected users
+- Messages are stored with encryption so whenever someone logs on, they can view messages that have been left
+- Think of it like a secure dead drop
+- then we can make things pretty, give it a GUI etc
+
+See more here:
+http://en.wikipedia.org/wiki/GNU_Privacy_Guard
+http://en.wikipedia.org/wiki/Pretty_Good_Privacy
+http://en.wikipedia.org/wiki/Dead_drop
+http://ipython.org/notebook.html
+http://golang.org/
+https://floobits.com/
